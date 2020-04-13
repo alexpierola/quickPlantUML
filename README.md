@@ -1,1 +1,1 @@
-# quickplantuml
+# Quick PlantUML
