@@ -1,0 +1,34 @@
+$primary: #18da66;
+$darkPrimary: #3cc171;
+$secondary: #ee4f3e;
+$darkSecondary: #aa2011;
+
+a {
+  transition: all 0.3s;
+  &.bold {
+    font-weight: bold;
+  }
+  &.main {
+    color: $primary;
+    &:hover {
+      color: $darkPrimary;
+    }
+  }
+  &.companion {
+    color: $secondary;
+    &:hover {
+      color: $darkSecondary;
+    }
+  }
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+.mt-2 {
+  margin-top: 2rem;
+}
+
+@import "./components/Nav/Nav.scss";
+@import "./components/Home/Home.scss";
+@import "./components/About/About.scss";
