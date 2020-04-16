@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/quickplantuml/static/css/main.add58361.chunk.css",
+    "main.js": "/quickplantuml/static/js/main.40c78fab.chunk.js",
+    "main.js.map": "/quickplantuml/static/js/main.40c78fab.chunk.js.map",
+    "runtime-main.js": "/quickplantuml/static/js/runtime-main.e6ee3334.js",
+    "runtime-main.js.map": "/quickplantuml/static/js/runtime-main.e6ee3334.js.map",
+    "static/css/2.a2c18f5e.chunk.css": "/quickplantuml/static/css/2.a2c18f5e.chunk.css",
+    "static/js/2.202692cd.chunk.js": "/quickplantuml/static/js/2.202692cd.chunk.js",
+    "static/js/2.202692cd.chunk.js.map": "/quickplantuml/static/js/2.202692cd.chunk.js.map",
+    "index.html": "/quickplantuml/index.html",
+    "precache-manifest.ca216cc522829860b45bad424ee333b5.js": "/quickplantuml/precache-manifest.ca216cc522829860b45bad424ee333b5.js",
+    "service-worker.js": "/quickplantuml/service-worker.js",
+    "static/css/2.a2c18f5e.chunk.css.map": "/quickplantuml/static/css/2.a2c18f5e.chunk.css.map",
+    "static/css/main.add58361.chunk.css.map": "/quickplantuml/static/css/main.add58361.chunk.css.map",
+    "static/js/2.202692cd.chunk.js.LICENSE.txt": "/quickplantuml/static/js/2.202692cd.chunk.js.LICENSE.txt",
+    "static/media/qpl_logo.svg": "/quickplantuml/static/media/qpl_logo.b2ebc6b9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e6ee3334.js",
+    "static/css/2.a2c18f5e.chunk.css",
+    "static/js/2.202692cd.chunk.js",
+    "static/css/main.add58361.chunk.css",
+    "static/js/main.40c78fab.chunk.js"
+  ]
+}
