@@ -2,7 +2,6 @@ import React from 'react';
 import './App.scss';
 import {
   BrowserRouter as Router,
-  Switch,
   Route
 } from 'react-router-dom';
 import Nav from './components/Nav/Nav';
@@ -14,10 +13,13 @@ function App() {
     <div className="App">
       <Router basename="/quickplantuml/">
         <Nav />
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/about" exact component={About} />
-        </Switch>
+        
+        <Route path="/" render={({ match: { url } }) => (
+          <>
+            <Route exact path={`${url}`} component={Home} />
+            <Route path={`${url}about`} component={About} />
+          </>
+        )} />
       </Router>
     </div>
   );
