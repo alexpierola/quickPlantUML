@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.scss';
 import {
-  BrowserRouter as Router,
-  Route
+  HashRouter as Router,
+  Route,
+  Switch
 } from 'react-router-dom';
 import Nav from './components/Nav/Nav';
 import Home from './components/Home/Home';
@@ -11,15 +12,13 @@ import About from './components/About/About';
 function App() {
   return (
     <div className="App">
-      <Router basename="/quickplantuml/">
+      <Router>
         <Nav />
         
-        <Route path="/" render={({ match: { url } }) => (
-          <>
-            <Route exact path={`${url}`} component={Home} />
-            <Route path={`${url}about`} component={About} />
-          </>
-        )} />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/about" component={About} />
+        </Switch>
       </Router>
     </div>
   );
