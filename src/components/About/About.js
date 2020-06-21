@@ -19,12 +19,12 @@ the **beggining**;
                     <h1 className="text text-b">Usage</h1>
                 </div>
                 <h1>All you need to do is write your UML text in the box and send, then you will get your diagram. For example this text:</h1>
-                <pre>{uml1}</pre>
-                <h1>Will be transformed in this image:</h1>
+                <pre className="mt-1">{uml1}</pre>
+                <h1 className="mt-1">Will be transformed in this image:</h1>
                 <img src={imgUml1} alt="uml1"/>
                 <h1 className="has-text-weight-bold	">To download right click and save as...</h1>
             </section>
-            <section className="demo mt-1">
+            <section className="demo mt-2">
                 <div className="ab-title big">
                     <FontAwesomeIcon icon={faHashtag} />
                     <h1 className="text text-b">Diagrams</h1>

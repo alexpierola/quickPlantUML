@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/quickplantuml/static/css/main.3419ee8f.chunk.css",
-    "main.js": "/quickplantuml/static/js/main.58c238af.chunk.js",
-    "main.js.map": "/quickplantuml/static/js/main.58c238af.chunk.js.map",
+    "main.js": "/quickplantuml/static/js/main.47e6ccf8.chunk.js",
+    "main.js.map": "/quickplantuml/static/js/main.47e6ccf8.chunk.js.map",
     "runtime-main.js": "/quickplantuml/static/js/runtime-main.e6ee3334.js",
     "runtime-main.js.map": "/quickplantuml/static/js/runtime-main.e6ee3334.js.map",
     "static/css/2.a2c18f5e.chunk.css": "/quickplantuml/static/css/2.a2c18f5e.chunk.css",
     "static/js/2.fe6e7209.chunk.js": "/quickplantuml/static/js/2.fe6e7209.chunk.js",
     "static/js/2.fe6e7209.chunk.js.map": "/quickplantuml/static/js/2.fe6e7209.chunk.js.map",
     "index.html": "/quickplantuml/index.html",
-    "precache-manifest.914bad0bf5ba5d0754b192b89684cc9d.js": "/quickplantuml/precache-manifest.914bad0bf5ba5d0754b192b89684cc9d.js",
+    "precache-manifest.d5a431f5fec74d73b2e2fea0d8bdcd90.js": "/quickplantuml/precache-manifest.d5a431f5fec74d73b2e2fea0d8bdcd90.js",
     "service-worker.js": "/quickplantuml/service-worker.js",
     "static/css/2.a2c18f5e.chunk.css.map": "/quickplantuml/static/css/2.a2c18f5e.chunk.css.map",
     "static/css/main.3419ee8f.chunk.css.map": "/quickplantuml/static/css/main.3419ee8f.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.a2c18f5e.chunk.css",
     "static/js/2.fe6e7209.chunk.js",
     "static/css/main.3419ee8f.chunk.css",
-    "static/js/main.58c238af.chunk.js"
+    "static/js/main.47e6ccf8.chunk.js"
   ]
 }
